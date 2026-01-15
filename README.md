@@ -9,6 +9,25 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
 To start the Metro dev server, run the following command from the root of your React Native project:
+## Stracture App
+src/
+ ├── navigation/
+ │    ├── AuthStack.js
+ │    ├── BottomTabs.js
+ │    └── AppStack.js
+ ├── screens/
+ │    ├── LoginScreen.js
+ │    ├── HomeScreen.js
+ │    ├── CartScreen.js
+ │    └── OrderDetailScreen.js
+ ├── database/
+ │    └── db.js
+ ├── storage/
+ │    └── storage.js
+ ├── data/
+ │    └── products.js
+ └── components/
+      └── ProductCard.js
 
 ```sh
 # Using npm
