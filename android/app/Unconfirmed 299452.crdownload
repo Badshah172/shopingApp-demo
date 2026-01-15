@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "883924780729",
+    "firebase_url": "https://mazdoor-app-58c4a-default-rtdb.firebaseio.com",
+    "project_id": "mazdoor-app-58c4a",
+    "storage_bucket": "mazdoor-app-58c4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883924780729:android:4776f775afeba9695dfd68",
+        "android_client_info": {
+          "package_name": "com.badshah.testingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883924780729-10rkppehdm252ql897dk5ijngqs3esuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badshah.testingapp",
+            "certificate_hash": "e83e91f25188ce4b28939875ef50da1bde346ae2"
+          }
+        },
+        {
+          "client_id": "883924780729-rmp287o08keujccpe1m7vdhnhon7iv1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIka4G6CjZdL7bz_SSS-hEebwQ4cgRwJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883924780729-rmp287o08keujccpe1m7vdhnhon7iv1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2919931327166869~4445951121"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "859611567070",
+    "firebase_url": "https://mazdoor-hire-app-default-rtdb.firebaseio.com",
+    "project_id": "mazdoor-hire-app",
+    "storage_bucket": "mazdoor-hire-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859611567070:android:d65ff3425c15de661dc34f",
+        "android_client_info": {
+          "package_name": "com.app.mazdoor.hire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859611567070-fuk4vhd6crk570m2hgh893lqpeij3foo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mazdoor.hire",
+            "certificate_hash": "44d274358c663498f37439ea812a0749a22b286e"
+          }
+        },
+        {
+          "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Ncm7L_lfLQidgMcwuxeqIHUKF3ur8gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859611567070:android:04071f329db6e3d21dc34f",
+        "android_client_info": {
+          "package_name": "com.brothers.mini.mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Ncm7L_lfLQidgMcwuxeqIHUKF3ur8gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859611567070:android:df1415f952236a081dc34f",
+        "android_client_info": {
+          "package_name": "com.badshah.testingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859611567070-nrjn3dt1ig6evgqkgh39a46k4pk73si1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.badshah.testingapp",
+            "certificate_hash": "e83e91f25188ce4b28939875ef50da1bde346ae2"
+          }
+        },
+        {
+          "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Ncm7L_lfLQidgMcwuxeqIHUKF3ur8gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859611567070-ua3a18mod93qnnsocbct7c0crq8v5qa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
