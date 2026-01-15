@@ -101,5 +101,5 @@ GitHub Repo: https://github.com/facebook/react-native
 
 👨‍💻 Author
 
-BMM App
+Syed Hassnain ALi shah App
 Developed with ❤️ using React Native
