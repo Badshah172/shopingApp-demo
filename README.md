@@ -1,117 +1,132 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+📱 BMM App
 
-# Getting Started
+A modern React Native mobile application bootstrapped using @react-native-community/cli, following a clean and scalable folder structure with reusable components, navigation stacks, and local data handling.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+🚀 Tech Stack
 
-## Step 1: Start Metro
+React Native (CLI)
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+JavaScript
 
-To start the Metro dev server, run the following command from the root of your React Native project:
-## Stracture App
+React Navigation
+
+Metro Bundler
+
+Android & iOS Support
+
+📂 Project Structure
 src/
  ├── navigation/
- │    ├── AuthStack.js
- │    ├── BottomTabs.js
- │    └── AppStack.js
+ │    ├── AuthStack.js        # Authentication flow
+ │    ├── BottomTabs.js       # Bottom tab navigation
+ │    └── AppStack.js         # Main app navigation
+ │
  ├── screens/
- │    ├── LoginScreen.js
- │    ├── HomeScreen.js
- │    ├── CartScreen.js
- │    └── OrderDetailScreen.js
+ │    ├── LoginScreen.js      # User login screen
+ │    ├── HomeScreen.js       # Home/dashboard screen
+ │    ├── CartScreen.js       # Cart management
+ │    └── OrderDetailScreen.js# Order details view
+ │
  ├── database/
- │    └── db.js
+ │    └── db.js               # Local database logic
+ │
  ├── storage/
- │    └── storage.js
+ │    └── storage.js          # Async/local storage helpers
+ │
  ├── data/
- │    └── products.js
+ │    └── products.js         # Static product data
+ │
  └── components/
-      └── ProductCard.js
+      └── ProductCard.js      # Reusable UI component
 
-```sh
-# Using npm
+⚙️ Prerequisites
+
+Make sure the following are installed before running the project:
+
+Node.js
+
+npm or Yarn
+
+Android Studio (for Android)
+
+Xcode (for iOS – macOS only)
+
+React Native CLI environment setup
+👉 https://reactnative.dev/docs/set-up-your-environment
+
+▶️ Getting Started
+1️⃣ Install Dependencies
+npm install
+# OR
+yarn install
+
+2️⃣ Start Metro Server
 npm start
-
-# OR using Yarn
+# OR
 yarn start
-```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
+3️⃣ Run the App
+📱 Android
 npm run android
-
-# OR using Yarn
+# OR
 yarn android
-```
 
-### iOS
+🍎 iOS
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Install CocoaPods dependencies (first time only):
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
 bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
 bundle exec pod install
-```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-```sh
-# Using npm
+Then run:
+
 npm run ios
-
-# OR using Yarn
+# OR
 yarn ios
-```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+🔁 Fast Refresh
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+Changes are reflected automatically using Fast Refresh.
 
-## Step 3: Modify your app
+Manual Reload:
 
-Now that you have successfully run the app, let's make changes!
+Android: Press R twice or Ctrl + M
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+iOS: Press R in simulator
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+🛠️ Customization
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Edit the main entry file:
 
-## Congratulations! :tada:
+App.tsx
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+Save changes and see them instantly in the app.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+🧪 Troubleshooting
 
-# Troubleshooting
+If you face any issues:
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Clear cache:
 
-# Learn More
+npx react-native start --reset-cache
 
-To learn more about React Native, take a look at the following resources:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-"# bmm_app" 
+Rebuild project
+
+Check environment setup
+👉 https://reactnative.dev/docs/troubleshooting
+
+📚 Learn More
+
+React Native Docs: https://reactnative.dev
+
+Navigation: https://reactnavigation.org
+
+GitHub Repo: https://github.com/facebook/react-native
+
+👨‍💻 Author
+
+BMM App
+Developed with ❤️ using React Native
