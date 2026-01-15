@@ -1,11 +1,19 @@
 📱 BMM App
+
 A modern React Native mobile application bootstrapped using @react-native-community/cli, following a clean and scalable folder structure with reusable components, navigation stacks, and local data handling.
+
 🚀 Tech Stack
+
 React Native (CLI)
+
 JavaScript
+
 React Navigation
+
 Metro Bundler
+
 Android & iOS Support
+
 📂 Project Structure
 src/
  ├── navigation/
@@ -34,10 +42,15 @@ src/
 ⚙️ Prerequisites
 
 Make sure the following are installed before running the project:
+
 Node.js
+
 npm or Yarn
+
 Android Studio (for Android)
+
 Xcode (for iOS – macOS only)
+
 React Native CLI environment setup
 👉 https://reactnative.dev/docs/set-up-your-environment
 
@@ -59,32 +72,46 @@ npm run android
 yarn android
 
 🍎 iOS
+
 Install CocoaPods dependencies (first time only):
+
 bundle install
 bundle exec pod install
 
+
 Then run:
+
 npm run ios
 # OR
 yarn ios
 
 🔁 Fast Refresh
+
 Changes are reflected automatically using Fast Refresh.
+
 Manual Reload:
+
 Android: Press R twice or Ctrl + M
+
 iOS: Press R in simulator
 
 🛠️ Customization
 
 Edit the main entry file:
+
 App.tsx
+
+
 Save changes and see them instantly in the app.
 
 🧪 Troubleshooting
 
 If you face any issues:
+
 Clear cache:
+
 npx react-native start --reset-cache
+
 
 Rebuild project
 
@@ -101,5 +128,5 @@ GitHub Repo: https://github.com/facebook/react-native
 
 👨‍💻 Author
 
-Syed Hassnain ALi shah App
+BMM App
 Developed with ❤️ using React Native
